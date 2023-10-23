@@ -1,0 +1,86 @@
+.header {
+    width: 1055px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header__links {
+    margin-left: 345px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 65px;
+
+}
+
+.header__link-telegram {
+    background: url(../../images/headerButtonTelegram.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    margin-right: 11px;
+}
+
+.header__link-whatsapp {
+    background: url(../../images/headerButtonWhatsapp.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+}
+
+.header__buttons {
+    display: flex;
+    flex-direction: row;
+    height: 38px;
+}
+
+.header__button-auth {
+    background-color: #DD4400;
+    width: 132px;
+    border: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #fff;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.header__button-register {
+    background-color: transparent;
+    width: 210px;
+    border: 2px solid #D40;
+    padding-top: 11px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.header__button-subtitle {
+    color: #D40;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}

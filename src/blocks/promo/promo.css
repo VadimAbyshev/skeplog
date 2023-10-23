@@ -1,0 +1,87 @@
+.promo{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 1033px;
+    background-image: url(../../images/Frame\ 1000005217.png);
+    background-repeat: no-repeat;
+    background-position: 550px;
+}
+.promo__title{
+    width: 830px;
+    font-size: 76px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 40px;
+margin-bottom: 47px;
+}
+.promo__title-orange{
+    color: #D40;
+}
+.promo__info{
+    display: flex;
+    flex-direction: row;
+}
+.promo__info-text{
+margin: 0;
+margin-right: 50px;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 143.49%; /* 34.438px */
+}
+.promo__info-text:last-of-type{
+    margin: 0;
+}
+.promo__action-text{
+width: 592px;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin: 0;
+margin-bottom: 23px;
+margin-top: 53px;
+}
+.promo__action-span{
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.promo__action-timer{
+    color: #D40;
+font-family: Arial;
+font-size: 88px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+margin-top: 15px;
+}
+.promo__button{
+width: 352px;
+height: 70px;
+padding: 11px 53px;
+flex-shrink: 0;
+margin-top: 35px;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: transparent;
+border: 3px solid #D40;
+}
+.promo__button-span{
+    width: 352px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-top: 5px;
+}

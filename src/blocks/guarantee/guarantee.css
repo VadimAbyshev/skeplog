@@ -1,0 +1,118 @@
+.guarantee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url(../../images/backGuard.png);
+    background-repeat: no-repeat;
+}
+.guarantee__grid-elements{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    
+
+}
+.guarantee__grid{
+    margin: 207px 201px 0 201px;
+    display: grid;
+    grid-template-rows: repeat(auto, auto);
+    grid-row-gap: 125px;
+}
+.guarantee__grid-title{
+    color: #D40;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 168.49%; /* 67.396px */
+text-transform: uppercase;
+margin: 0;
+}
+.guarantee__grid-subtitle{
+    color: #000;
+font-family: Arial;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 15px;
+margin-bottom: 0;
+width: 352px;
+}
+.guarantee__grid-image{
+    width: 504px;
+height: 329px;
+flex-shrink: 0;
+}
+.swiper-slide__car{
+    width: 420px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.guarantee__grid-text{
+    width: 519px;
+}
+.guarantee__grid-text-right{
+    text-align: right;
+}
+.guarantee__grid-subtitle-right{
+    margin-left: 190px;
+    width: 339px;
+}
+.swiper-button-next{
+    margin-top: 2px;
+    color: #D40;
+    width: 36.63px;
+height: 12.953px;
+flex-shrink: 0;
+}
+.swiper-button-prev{
+    margin-top: 2px;
+    color: #D40;
+    width: 36.63px;
+height: 12.953px;
+flex-shrink: 0;
+}
+.guarantee__grid-elements:nth-of-type(3){
+    margin-top: 170px;
+}
+
+.guarantee__grid-title_span{
+    color: #000;
+}
+.guarantee__grid-elements:nth-of-type(4){
+    margin-top: 10px;
+}
+.guarantee__button{
+    color: #000;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 145px;
+background-color: transparent;
+border: 3px solid #D40;
+
+
+
+width: 352px;
+height: 70px;
+padding: 11px 53px;
+
+flex-shrink: 0;
+flex-wrap: wrap;
+}
+.guarantee__button-span{
+    color: #000;
+text-align: center;
+margin-top: 5px;
+width: 352px;
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.guarantee__grid-element_swiper{
+    width: 504px;
+}

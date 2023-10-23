@@ -1,0 +1,32 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 7px auto;
+    border-bottom: 1px solid #D6D1B1;
+    padding-bottom: 7px;
+}
+.navigation__links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+gap: 96px;
+}
+.navigation__link{
+    display: flex;
+   
+}
+.navigation__link-element{
+        font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #000;
+text-decoration: none;
+max-width: 58px;
+display: flex;
+flex-direction: row;
+}

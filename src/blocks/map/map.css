@@ -1,0 +1,26 @@
+.map{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    height: 650px;
+    background: 	#D3D3D3;
+
+}
+.map__title{
+    color: var(--, #000);
+font-size: 40.13px;
+font-style: normal;
+font-weight: 700;
+line-height: 40.13px; /* 100% */
+text-transform: uppercase;
+}
+.map__title-span{
+    color: var(--O, #D40);
+    font-size: 40.13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40.13px;
+    text-transform: uppercase;
+}

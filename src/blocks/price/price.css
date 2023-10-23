@@ -1,0 +1,93 @@
+.price{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/fon10.png);
+    background-repeat: no-repeat;
+    margin-top: 90px;
+}
+.price__info{
+    display: grid;
+    width: 1030px;
+    margin: 337px auto;
+    gap: 47px;
+    margin-bottom: 202px;
+}
+.price__texts{
+display: grid;
+grid-template-columns: 756px 161px;   
+gap: 107px;
+align-items: center;
+}
+
+.price__title{
+    color: #000;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin: 0;
+}
+.price__subtitle{
+    color: #000;
+font-family: Arial;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 25px;
+margin-bottom: 37px;
+}
+.price__text{
+    color: #000;
+font-family: Arial;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin: 0;
+}
+.price__image{
+    width: 161px;
+    height: 161px;
+
+flex-shrink: 0;
+}
+.price__title-orange{
+    color: #D40;
+}
+.price__info-link_text{
+    color: #D40;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+.price__button{
+    border: 3px solid #D40;
+    width: 352px;
+    height: 70px;
+    color: #000;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: transparent;
+margin-bottom: 20px;
+cursor: pointer;
+
+}
+.price__info-link{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.price__buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.price__button:last-of-type{margin: 0;}

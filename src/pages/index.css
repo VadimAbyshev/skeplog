@@ -1,0 +1,16 @@
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/regards/regards.css);
+@import url(../blocks/support/support.css);
+@import url(../blocks/map/map.css);
+@import url(../blocks/guarantee/guarantee.css);
+@import url(../blocks/stages/stages.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/price/price.css);
+@import url(../blocks/members/members.css);
+
+@import url(../blocks/reviews/reviews.css);
