@@ -1,4 +1,5 @@
 @import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -12,5 +13,7 @@
 @import url(../blocks/advantages/advantages.css);
 @import url(../blocks/price/price.css);
 @import url(../blocks/members/members.css);
-
+@import url(../blocks/contacts/contacts.css);
 @import url(../blocks/reviews/reviews.css);
+@import url(../blocks/question/question.css);
+

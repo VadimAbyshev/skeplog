@@ -101,3 +101,16 @@ align-items: center;
 text-align: center;
 cursor: pointer;
 }
+
+@media screen and (max-width: 1150px){
+    .stages__title{
+        margin-left: 40px;
+    }
+    .stages__grid{
+        grid-template-columns: repeat(2, 250px);
+    }
+    .stages__reference-text{
+        font-size: 20px;
+        width: 600px;
+    }
+}

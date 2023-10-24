@@ -10,14 +10,19 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 0 auto;
+    margin: 0 auto 0;
     padding: 0;
     align-items: center;
-gap: 96px;
+box-sizing: content-box;
+justify-content: space-between;
 }
 .navigation__link{
     display: flex;
    
+}
+.navigation__nav{
+    width: 1033px;
+    margin: 0 auto;
 }
 .navigation__link-element{
         font-size: 18px;
@@ -29,4 +34,117 @@ text-decoration: none;
 max-width: 58px;
 display: flex;
 flex-direction: row;
+}
+.navigation__burger{
+  display: none;
+}
+.navigation__button-auth{display: none;}
+.navigation__button-register{display: none;}
+
+@media screen and (max-width: 1100px){
+
+    .navigation__nav{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navigation__burger {
+        display: block;        
+        width: 44px;
+        height: 44px;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        background-image: url('../../images/burgerMenu.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+.navigation{
+    height: 2px;
+}
+      .navigation__nav {
+        visibility: hidden;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        width: 0;
+        margin: 0;
+        overflow: hidden;
+        z-index: 1;
+     
+      }
+      .navigation_nav_open{
+        height: 100%;
+        width: 100%;
+        visibility: visible;
+        background-color: rgba(0, 0,0, 0.3);
+
+
+      }
+      .navigation__links{
+        box-sizing: border-box;
+        width: 520px;
+        height: 100%;
+        padding-bottom: 20px;
+        display: flex;
+justify-content: center;
+        flex-direction: column;
+        gap:15px;
+        margin: 0 0 0 auto;
+        background: #FAFAFA;
+        text-align: center;
+        
+      }
+      .navigation__strelka{
+        display: none;
+      } 
+      .navigation__link-element{
+        max-width: 100%;
+      }
+      .header__button-auth{
+        display: none
+        
+      }
+      .header__button-group{
+        display: none;
+      }
+      .navigation__button-auth{
+        width: 333px;
+height: 55px;
+border: 2px solid #D40;
+margin-top: 131px;
+background: #D40;
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+cursor: pointer;
+display: block;
+
+      }
+
+      .navigation__button-register{
+        width: 333px;
+        height: 55px;
+cursor: pointer;
+color: #000;
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+background-color: transparent;
+border: 2px solid #D40;
+display: block;
+      }
+
 }
