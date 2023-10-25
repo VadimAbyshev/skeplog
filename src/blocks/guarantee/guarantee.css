@@ -12,6 +12,9 @@
     
 
 }
+.guarantee__grid-wrapper_car{
+    width: 504px;
+}
 .guarantee__grid{
     margin: 207px 201px 0 201px;
     display: grid;
@@ -44,7 +47,9 @@ width: 352px;
 height: 329px;
 flex-shrink: 0;
 }
-
+.guarantee__grid-slide{
+    width: 439px;
+}
 .guarantee__grid-text{
     width: 519px;
 }
@@ -151,6 +156,9 @@ line-height: normal;
 .guarantee__grid-elements:nth-of-type(3) {
     margin: 0;
 }
+.guarantee__grid-images-car{
+    order: 1;
+}
 
   .guarantee__grid-element_swiper{
     order: 2;
@@ -215,6 +223,31 @@ height: 225.208px;
     .swiper-slide__car{
         width: 345px;
         height: 225px;
+        margin: 0;
+    }
+    .guarantee__grid-images-car{
+        display: flex;
+        align-items: center;
+        width: 345px;
+        height: 225px;
+        margin-right: 180px;
+    }
+    .guarantee__grid-wrapper_car{
+        width: 345px;
+    }
+    .swiper-slide__car{
+        height: 223px;
+        width: 345px;
+    }
+    .guarantee__grid-image{
+        width: 345px;
+        height: 225px;
+    }
+    .guarantee__grid{
+        gap:85px;
+    }
+    .guarantee__grid-text{
+        width: 345px;
         margin: 0;
     }
 }

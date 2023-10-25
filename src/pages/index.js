@@ -19,10 +19,14 @@ const swiper = new Swiper('.swiper', {
         spaceBetween: 8
     },
     1060: {
-        slidesPerView: 1,
+        slidesPerView: 'auto',
         spaceBetween: 20,
+        slidesPerView: 'auto',
     }
-}
+},
+// autoplay: {
+//   delay: 1000,
+// },
 
 });
 

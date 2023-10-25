@@ -111,3 +111,9 @@ width: 203px;
     }
     
 }
+
+@media screen and (max-width: 400px){
+    .members__title{
+        font-size: 22px;
+    }
+}

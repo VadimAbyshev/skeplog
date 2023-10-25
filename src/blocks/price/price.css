@@ -160,3 +160,49 @@ align-items: center;
         margin-bottom: 50px;
     }
 }
+
+@media screen and (max-width: 620px){
+    .price__info{
+        gap: 35px;
+    width: 330px;
+    height: 700px;
+    padding: 0;
+}
+.price{
+    height: 768px;
+}
+.price__title{
+    font-size: 22px;
+}
+.price__subtitle{
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+.price__text{
+    font-size: 18px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price__image{
+    width: 110.688px;
+    height: 110px;
+}
+.price__info-link_text{
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+.price__button{
+    width: 320px;
+    font-size: 20px;
+    height: 70px;
+    margin-bottom: 18px;
+}
+.price__texts{
+    gap: 45px;
+}
+.price{
+    margin-bottom: 50px;
+}
+}
