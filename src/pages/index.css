@@ -8,7 +8,7 @@
 @import url(../blocks/regards/regards.css);
 @import url(../blocks/support/support.css);
 @import url(../blocks/map/map.css);
-@import url(../blocks/guarantee/guarantee.css);
+
 @import url(../blocks/stages/stages.css);
 @import url(../blocks/advantages/advantages.css);
 @import url(../blocks/price/price.css);
@@ -17,3 +17,4 @@
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/question/question.css);
 
+@import url(../blocks/guarantee/guarantee.css);

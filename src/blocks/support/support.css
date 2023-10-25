@@ -60,3 +60,18 @@ padding-top: 11px;
 padding-bottom: 11px;
 margin-top: 74px;
 }
+
+@media screen and (max-width: 900px){
+    .support{
+        width: 100%;
+    }
+    .support__subtitle{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .support__subtitle-orange{
+        width: 330px;
+    }
+}

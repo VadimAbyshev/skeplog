@@ -34,6 +34,12 @@
     <nav class="navigation">
       <div class="navigation__nav">
 
+        <div class="navigation__social">
+          <a href="https://web.telegram.org" target="_blank" class="navigation__link-telegram"></a>
+          <a href="#" target="_blank" class="navigation__link-whatsapp"></a>
+        </div>
+
+        <button type='button' class='navigation__burger-close' ></button>
       <ul class="navigation__links  navigation__links-container_type_page">
         
         <li class="navigation__link"><a href="#" class="navigation__link-element" target="_blank">Главная</a></li>
@@ -44,10 +50,11 @@
         <li class="navigation__link"><a href="#" class="navigation__link-element" target="_blank">Отзывы</a></li>
         <li class="navigation__link"><a href="#" class="navigation__link-element" target="_blank">Контакты</a></li>
         <li class="navigation__link"><a href="#" class="navigation__link-element" target="_blank">Вопросы</a></li>
-   
+      <div class="navigation__buttons">
         <button class="navigation__button-auth" type="button">Вход</button>
         <button class="navigation__button-register" type="button">Зарегистрироваться</button>
-
+        <p class="navigation__button-subtitle">Уже 1500+ пользователей SKEPLOG!</p>
+      </div>
       </ul>
 
     </div>
@@ -99,31 +106,82 @@
       <section class="guarantee">
         <div class="guarantee__grid">
 
+
           <div class="guarantee__grid-elements">
+
             <div class="guarantee__grid-text">
               <h2 class="guarantee__grid-title">Гарантия 100% сохранности товара <br>и соблюдение сроков</h2>
               <p class="guarantee__grid-subtitle">Засчет круглосуточного видеонаблюдения и налаженной работы команды</p>
             </div>
+            
+            <div class="guarantee__grid-images">
             <img class="guarantee__grid-image" alt="Изображение охранной системы" src="../src/images/gridCamera.png">
           </div>
 
+          <div class="swiper guarantee__grid-images_swiper ">
+            <div class="swiper-wrapper guarantee__grid-wrapper">
+              
+              <div class="guarantee__grid-slide swiper-slide">
+                <img class="guarantee__grid-image" alt="Изображение охранной системы" src="../src/images/gridCamera.png">
+              </div>
+        
 
-          <div class="guarantee__grid-elements">
-
-            <div class="swiper guarantee__grid-element_swiper">
-
-              <div class="swiper-wrapper guarantee-wrapper">
-                <div class="swiper-slide"> <img class="swiper-slide__car" alt="Доступные виды транспорта"
-                    src="../src/images/carBus.png"></div>
-                <div class="swiper-slide"> <img class="swiper-slide__car" alt="Доступные виды транспорта"
-                    src="../src/images/car2.png"></div>
-                <div class="swiper-slide"> <img class="swiper-slide__car" alt="Доступные виды транспорта"
-                    src="../src/images/car3.png"></div>
+              <div class="guarantee__grid-slide swiper-slide">
+                <img class="guarantee__grid-image" alt="Изображение охранной системы" src="../src/images/guaranteeZavodSwiper.png">
               </div>
 
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+          </div>
+          <div class=" swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          
+          </div>
+          </div>
+
+
+<!-- 
+          <div class="guarantee__grid-elements">
+
+            <div class="swiper guarantee__grid-wrapper">
+
+              <div class="swiper-wrapper guarantee-wrapper">
+                <div class=" guarantee__grid-slide  swiper-slide "> <img class="swiper-slide__car" alt="Доступные виды транспорта"
+                    src="../src/images/carBus.png"></div>
+                <div class=" guarantee__grid-slide  swiper-slide"> <img class="swiper-slide__car" alt="Доступные виды транспорта"
+                    src="../src/images/car2.png"></div>
+                <div class=" guarantee__grid-slide  swiper-slide"> <img class="swiper-slide__car" alt="Доступные виды транспорта"
+                    src="../src/images/car3.png"></div>
+               
+              </div> -->
+
+           
+            <!-- </div> -->
+            <div class="guarantee__grid-elements">
+
+            <div class="swiper guarantee__grid-images-car ">
+              <div class="swiper-wrapper guarantee__grid-wrapper_car">
+                
+                <div class="guarantee__grid-slide_car swiper-slide">
+                  <img class="swiper-slide__car" alt="Доступные виды транспорта"
+                  src="../src/images/carBus.png">
+                </div>
+          
+  
+                <div class="guarantee__grid-slide swiper-slide">
+                  <img class="swiper-slide__car" alt="Доступные виды транспорта"
+                    src="../src/images/car2.png">
+                </div>
+                
+                <div class="guarantee__grid-slide swiper-slide">
+                  <img class="swiper-slide__car" alt="Доступные виды транспорта"
+                  src="../src/images/car3.png">
+                </div>
+  
             </div>
+            <div class=" swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+            </div>
+
             <div class="guarantee__grid-text guarantee__grid-text-right">
               <h2 class="guarantee__grid-title">Собственный автопарк</h2>
               <p class="guarantee__grid-subtitle guarantee__grid-subtitle-right">Доставка любого количества товара на
@@ -131,6 +189,7 @@
 
             </div>
           </div>
+
 
           <div class="guarantee__grid-elements">
             <div class="guarantee__grid-text">
@@ -352,6 +411,68 @@
 
 
         </div>
+
+        <!-- Начало свайпера на малом разрашении -->
+
+        <div class="swiper members__swiper ">
+
+          <div class="swiper-wrapper members-wrapper">
+
+          <div class=" swiper-slide members__list-element">
+            <img src="../src/images/memberPhoto1.png" alt="фото Генеральный директор">
+            <div class="members__list-info">
+              <h3 class="members__title-element">Иван Павлов</h3>
+              <p class="memebers__subtitle">Генеральный директор /
+                Учредитель</p>
+            </div>
+          </div>
+
+          <div class=" swiper-slide members__list-element">
+            <img src="../src/images/member2.png" alt="фото Генеральный директор">
+            <div class="members__list-info">
+              <h3 class="members__title-element">Иван Павлов</h3>
+              <p class="memebers__subtitle">Учредитель</p>
+            </div>
+          </div>
+
+          <div class=" swiper-slide members__list-element">
+            <img src="../src/images/member3.png" alt="фото Генеральный директор">
+            <div class="members__list-info">
+              <h3 class="members__title-element">Иван Павлов</h3>
+              <p class="memebers__subtitle">Старший кладовщик /<br>
+                И.О. Руководителя склада</p>
+            </div>
+          </div>
+
+          <div class=" swiper-slide members__list-element">
+            <img src="../src/images/member4.png" alt="фото Генеральный директор">
+            <div class="members__list-info">
+              <h3 class="members__title-element">Иван Павлов</h3>
+              <p class="memebers__subtitle">Главный Бухгалтер</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide members__list-element">
+            <img src="../src/images/member5.png" alt="фото Генеральный директор">
+            <div class="members__list-info">
+              <h3 class="members__title-element">Иван Павлов</h3>
+              <p class="memebers__subtitle">Бизнес-ассистент</p>
+            </div>
+          </div>
+
+          <div class=" swiper-slide members__list-element">
+            <img src="../src/images/member6.png" alt="фото Генеральный директор">
+            <div class="members__list-info">
+              <h3 class="members__title-element">Иван Павлов</h3>
+              <p class="memebers__subtitle">Менеджер службы
+                заботы о клиентах</p>
+            </div>
+          </div>
+
+
+        </div>
+    </div>
+        <!-- Конец свайпера -->
 
       </section>
 

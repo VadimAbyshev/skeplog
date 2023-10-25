@@ -45,3 +45,16 @@ margin: 0;
             background-image: url(../../images/redgarFon2.png);
         }
 }
+@media screen and (max-width: 650px){
+    .regards{
+        margin-top: 0;
+        height: 398px;
+        background-image: url(../../images/regardsLittleFon.png);
+    }
+    .regards__title{
+        width: 400px;
+    }
+    .regards__subtitle{
+        width: 400px;
+    }
+}

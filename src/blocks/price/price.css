@@ -156,4 +156,7 @@ align-items: center;
     .price__texts{
         gap: 80px;
     }
+    .price{
+        margin-bottom: 50px;
+    }
 }

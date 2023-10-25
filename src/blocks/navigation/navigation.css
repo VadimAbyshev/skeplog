@@ -23,6 +23,7 @@ justify-content: space-between;
 .navigation__nav{
     width: 1033px;
     margin: 0 auto;
+    transition: width .2s linear, visibility .2s linear;
 }
 .navigation__link-element{
         font-size: 18px;
@@ -38,9 +39,41 @@ flex-direction: row;
 .navigation__burger{
   display: none;
 }
+
+.navigation__link-telegram{
+    background: url(../../images/headerButtonTelegram.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    margin-right: 11px;
+}
+.navigation__link-whatsapp{
+    background: url(../../images/headerButtonWhatsapp.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+}
+.navigation__button-subtitle{
+    color: #D40;
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: none;
+}
+.navigation__social{display: none;}
 .navigation__button-auth{display: none;}
 .navigation__button-register{display: none;}
-
+.navigation__burger-close{display: none;}
 @media screen and (max-width: 1100px){
 
     .navigation__nav{
@@ -63,20 +96,53 @@ flex-direction: row;
         background-repeat: no-repeat;
         cursor: pointer;
     }
-
+    .navigation__button-subtitle{
+        display: block;
+        margin: 0;
+    }
+    .navigation__burger-close {
+        display: block;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        background-image: url(../../images/burgerClose.svg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 23px;
+        right: 23px;
+        transition: opacity .3s linear;
+        cursor: pointer;
+      }
+      .navigation__social{
+        display: flex;
+        flex-direction: row;
+        top: 23px;
+        left: 210px;
+        position: absolute;
+      }
 .navigation{
-    height: 2px;
+    height: 0px;
+    
+}
+.navigation__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
       .navigation__nav {
         visibility: hidden;
         position: fixed;
         width: 100%;
+        height: 100%;
         top: 0;
         right: 0;
         width: 0;
         margin: 0;
         overflow: hidden;
-        z-index: 1;
+        z-index: 2;
      
       }
       .navigation_nav_open{
@@ -99,6 +165,7 @@ justify-content: center;
         margin: 0 0 0 auto;
         background: #FAFAFA;
         text-align: center;
+        padding-top: 150px;
         
       }
       .navigation__strelka{

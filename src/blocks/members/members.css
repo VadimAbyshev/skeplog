@@ -15,7 +15,9 @@ text-transform: uppercase;
 margin: 0;
 margin-top: 70px;
 }
-
+.members__swiper{
+    display: none;
+}
 .members__title-orange{
 
     color: #D40;
@@ -66,9 +68,46 @@ width: 203px;
     }
     .members__title{
         text-align: center;
+        margin-top: 0;
     }
     .members{
         width: 700px;
 
     }
+}
+
+@media screen and (max-width: 720px){
+    .members__list{
+        grid-template-columns: repeat(1, 318px);
+        margin: 50px auto 0;
+    }
+    .members__title{
+        text-align: center;
+    }
+    .members{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px){
+    .members__list{
+        display: none;
+    }
+    .members__swiper{
+        width: 344px;
+        display: flex;
+    }
+    
+    .members__list-element{
+        height: 450px;
+        background-image: url(../../images/memberFonLittle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: content-box;
+        
+    }
+    .members__title{
+        margin-bottom: 50px;
+        margin-top: 0;
+    }
+    
 }

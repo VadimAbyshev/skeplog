@@ -73,7 +73,7 @@ width: 435px;
 
 @media screen and (max-width: 1150px){
     .advantages{
-        width: 900px;
+        width: 100%;
     }
     .advantages__grid{
         grid-template-columns: repeat(1, 900px);
@@ -99,5 +99,30 @@ width: 435px;
     }
     .avadntages__grid-element_title{
         margin-right: 350px
+    }
+}
+
+@media screen and (max-width: 920px){
+    .advantages__grid{
+        grid-template-columns: repeat(1, 600px);
+        margin: 0 auto;
+        grid-template-rows: repeat(4, 350px);
+
+    }
+    .avadntages__grid-element_title{
+        margin-right: 100px
+    }
+    .advantages__title{
+        margin-left: 20px;
+        font-size: 35px;
+    }
+    .advantages__grid-element:nth-last-of-type(3){
+        order: 3;
+    }
+    .avadntages__grid-element_text{
+        width: 550px;
+    }
+    br{
+        display: none;
     }
 }

@@ -18,9 +18,9 @@ const swiper = new Swiper('.swiper', {
         slidesPerView: 1,
         spaceBetween: 8
     },
-    1192: {
-        slidesPerView: 2,
-        spaceBetween: 20
+    1060: {
+        slidesPerView: 1,
+        spaceBetween: 20,
     }
 }
 
@@ -33,10 +33,13 @@ const accordionOpenButton = document.querySelector('.question__info-button');
 
 const burgerButton = document.querySelector('.navigation__burger')
 const buergerMenu = document.querySelector('.navigation__nav')
-
+const closeBurgerButtton = document.querySelector('.navigation__burger-close')
 
 function openBurgerMenu(){
   buergerMenu.classList.add('navigation_nav_open')
+}
+function closeBurgerMenu(){
+  buergerMenu.classList.remove('navigation_nav_open')
 }
 // function openАccordion(){
 //   accordion.forEach(element => {
@@ -54,4 +57,5 @@ function openАccordion(){
   
 }  
 burgerButton.addEventListener('click', openBurgerMenu)
+closeBurgerButtton.addEventListener('click', closeBurgerMenu)
 accordionOpenButton.addEventListener('click', openАccordion)

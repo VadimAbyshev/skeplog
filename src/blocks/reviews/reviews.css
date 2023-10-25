@@ -123,8 +123,8 @@ margin: 0;
 
 @media screen and (max-width: 1060px){
     .reviews__title{
-        margin-right: 0;
-        margin-left: 250px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .reviews__slide{
         margin: 0 ;
