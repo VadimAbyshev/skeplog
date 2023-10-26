@@ -74,7 +74,7 @@ opacity: 0;
 }
 .accordion_opened{
 visibility: visible;
-height: 140px;
+height: 100%;
 opacity: 1;
 transition: all 1s;
 }
@@ -167,9 +167,7 @@ margin-left: 46px;
     margin-left: auto;
     margin-right: auto;
 }
-.accordion_opened{
-    height: 200px;
-}
+
 }
 
 @media screen and (max-width: 780px){
@@ -187,9 +185,7 @@ margin-left: 46px;
     margin-bottom: 50px;
     
 }
-.accordion_opened{
-    height: 280px;
-}
+
     }
 
     @media screen and (max-width: 520px){
@@ -219,7 +215,7 @@ line-height: normal;
 margin-top: 10px;
     }
     .accordion_opened{
-        height: 340px;
+     
         background: var(--gray-super-light, #F4F4F4);
     }
     .question__texts{
