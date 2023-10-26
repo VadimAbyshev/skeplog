@@ -18,3 +18,10 @@
 @import url(../blocks/question/question.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/guarantee/guarantee.css);
+@import url(../blocks/popup/popup.css);
+.decoration{
+    transition: background-color 0.5s ease-out;
+}
+.decoration:hover{
+    background-color: #d40;
+}

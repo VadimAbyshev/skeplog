@@ -1,0 +1,174 @@
+.popup{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: visibility 0.7s, opacity 0.5s linear;
+}   
+
+.popup__container{
+   
+        background-color: white;
+        width: 503px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        height: 724px;
+        border-radius: 10px;
+        position: relative;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+        align-items: center;
+
+}
+.popup__container-cartoon{
+    background-image: url(../../images/popupBack.png);
+}
+.popup__close-button:hover{
+    opacity: 0.6;
+}
+
+.popup__title{
+    color: #1C1C1C;
+    width: 427px;
+font-family: Arial;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.popup__form{
+    display: flex;
+    flex-direction: column;
+}
+.popup__save-button{
+width: 352px;
+height: 70px;
+flex-shrink: 0;
+border: 3px solid #D40;
+background-color: transparent;
+cursor: pointer;
+margin-left: auto;
+margin-right: auto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.popup__input{
+    display: flex;
+width: 426px;
+height: 78px;
+color: rgba(0, 0, 0, 0.75);
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 5px;
+border: 1px solid #1C1C1C;
+}
+.popup__checkbox{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.popup__close-button{
+    background-image: url(../../images/ClosePopup.svg);
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: 10px;
+    right: 15px;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.popup__title{
+    margin-top: 67px;
+    margin-bottom: 22px;
+}
+.popup__checkbox-label{
+    color: rgba(0, 0, 0, 0.75);
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.popup__checkbox-button{
+    stroke-width: 3px;
+stroke: #D40;
+background-color: transparent;
+border: 1px solid #000;
+}
+.popup__image{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.popup__title-price{
+    margin: 0;
+}
+.popup__subtitle{
+    color: rgba(0, 0, 0, 0.75);
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 12px;
+margin-bottom: 28px;
+}
+.popup__title-price{
+    text-align: center;
+}
+.popup_opened{
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+}
+.popup__title-consultation{
+    color: #D40;
+}
+.popup__send-consultation{
+    text-align: center;
+}
+
+@media screen and (max-width: 540px){
+    .popup__container{
+        width: 340px;
+    }
+    .popup__title{
+        font-size: 18px;
+        width: 320px;
+    }
+    .popup__subtitle{
+        margin-left: 10px;
+    }
+    .popup__input{
+        width: 320px;
+        padding-left: 10px;
+    }
+    .popup__checkbox{
+        width: 320px;
+        margin-left: 10px;
+        
+    }
+    .popup__checkbox{
+        font-size: 10px;
+    }
+    .popup__save-button{
+        width: 320px;
+    }
+}

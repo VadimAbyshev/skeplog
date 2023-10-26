@@ -74,10 +74,12 @@ opacity: 0;
 }
 .accordion_opened{
 visibility: visible;
-height: 141px;
+height: 140px;
 opacity: 1;
 transition: all 1s;
 }
+
+
 .question__info-button_open{
     background-image: url(../../images/accButtonOpen.svg);
 }

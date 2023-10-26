@@ -80,7 +80,7 @@
           <p class="promo__action-timer">1 : 11 : 14 : 07</p>
 
         </div>
-        <button class="promo__button" type="button">Получить скидку 15%</button>
+        <button class="promo__button discound-send decoration" type="button">Получить скидку 15%</button>
         <span class="promo__button-span">Воспользуйтесь сертификатом <br>при оформлении первого заказа</span>
 
       </section>
@@ -96,7 +96,7 @@
         <p class="support__subtitle">Фулфилмент в Москве, который отгружает товары на склады Wildberries, Ozon и
           Яндекс.Маркет в любой регион</p>
         <p class="support__subtitle-orange">Бесплатная консультация по расчету поставки на склады маркетплейсов</p>
-        <button class="support__button" type="button">Получить бесплатную консультацию!</button>
+        <button class="support__button  support__button-popup decoration" type="button">Получить бесплатную консультацию!</button>
       </section>
 
       <section class="map">
@@ -198,7 +198,7 @@
 
 
         </div>
-        <button class="guarantee__button" type="button">Получить скидку 15%</button>
+        <button class="guarantee__button discound-send decoration" type="button">Получить скидку 15%</button>
         <span class="guarantee__button-span">Воспользуйтесь сертификатом
           при оформлении первого заказа</span>
       </section>
@@ -250,7 +250,7 @@
           <p class="stages__reference-text">Разработали для Вашего удобства <span
               class="stages__reference-text_orange">личный кабинет </span> для отслеживания заказов и поставок!</p>
         </div>
-        <button class="stage__button" type="button">Узнать подробности</button>
+        <button class="stage__button support__button-popup decoration" type="button">Узнать подробности</button>
       </section>
 
       <section class="advantages">
@@ -329,8 +329,8 @@
             <p class="price__info-link_text">Скачайте прайс-лист с актуальными ценами
               на услуги фулфилмента SKEPLOG в один клик</p>
             <div class="price__buttons">
-              <button class="price__button" type="button">Скачать в Whats App</button>
-              <button class="price__button" type="button">Скачать в Telegram</button>
+              <button class="price__button price__button-whatsapp decoration" type="button">Скачать в Whats App</button>
+              <button class="price__button price__button-telegram decoration" type="button">Скачать в Telegram</button>
             </div>
           </div>
         </div>
@@ -898,7 +898,7 @@
 
             <div class="footer__form-links">
 
-              <button type="submit" class="decoration footer__save-button ">Отправить</button>
+              <button type="submit" class="decoration footer__save-button decoration">Отправить</button>
               <a href="https://web.telegram.org" target="_blank" class="footer__link-telegram"></a>
               <a href="#" target="_blank" class="footer__link-whatsapp"></a>
 
@@ -906,8 +906,8 @@
             <div class="footer__office">
               <p class="footer__office-title">Личный кабинет</p>
               <div class="footer__office-buttons">
-                <button class="footer__office-auth" type="button">Вход</button>
-                <button class="footer__office-register" type="button">Зарегистрироваться</button>
+                <button class="footer__office-auth decoration" type="button">Вход</button>
+                <button class="footer__office-register decoration" type="button">Зарегистрироваться</button>
 
               </div>
             </div>
@@ -918,7 +918,33 @@
 
     </div>
   </div>
-    <div class="footer__abouts">
+
+    <div class="footer__abouts  footer__abouts-mobile">
+
+      <div class="footer__company">
+        <p class="footer__company-title">ИП Павлов Иван Андреевич</p>
+        <p class="footer__requisites-title">ОГРНИП 320508100409413</p>
+        <p class="footer__documents-title">ИНН 027616773998 </p>
+      
+      </div>
+
+      <div class="footer__requisites">
+        <a class="footer__company-subtitle" href="#" target="_blank">
+          Фирменный стиль 
+        </a>
+        <a class="footer__requisites-subtitle" href="#" target="_blank">Политика обработки персональных данных </a>
+        <a class="footer__documents-subtitle" href="#" target="_blank">Договор-оферта</a>
+      
+      </div>
+
+      <div class="footer__documents">
+        <p class="footer__requisites-text">SKEPLOG © Все права защищены | Designed by Rossolovaang</p>
+        <button class="footer__up" type="button"></button>
+      </div>
+
+    </div>
+
+    <div class="footer__abouts footer__abouts-desktop">
 
       <div class="footer__company">
         <p class="footer__company-title">ИП Павлов Иван Андреевич</p>
@@ -942,12 +968,178 @@
 
     </footer>
   </div>
-  <script src="./scripts/swiper.js"></script>
-  <script src="./pages/index.js"></script>
+
 
   </div>
 
 
+
+  <div class="popup popup_send-message popup__send-question">
+    <div class="popup__container popup__container-cartoon ">
+      <button class="popup__close-button" type="button"></button>
+      <h2 class="popup__title">оставьте свою контактную информацию и получите сертификат на скидку 15 % при оформлении
+        первого заказа</h2>
+      <form action="#" class="form popup__form form_send-question" name="edit-info" novalidate>
+        <div class="popup__input-form">
+          <input type="text" name="name" class="form__text-input popup__input" id="name" placeholder="Как к Вам можно обращаться" maxlength="40"
+            minlength="2" required>
+  
+        </div>
+        <div class="popup__input-form">
+          <input type="email" name="email" class="form__text-input popup__input" id="email" placeholder="E-mail*"
+            maxlength="200" minlength="2" required>
+        </div>
+        <div class="popup__input-form">
+          <input type="tel" name="phone" class="form__text-input popup__input" id="phone" placeholder="Телефон*"
+            maxlength="200" minlength="2" required>
+
+        </div>
+        <div class="popup__checkbox">
+          <input class="popup__checkbox-button" id="popup__checkbox-button" type="checkbox">
+          <label for="popup__checkbox-button" class="popup__checkbox-label">Согласен на обработку персональных
+            данных</label>
+        </div>
+        <button type="submit" class="form__save-button decoration popup__save-button">Получить скидку 15%</button>
+  
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup_send-message popup__send-discount">
+    <div class="popup__container popup__container-cartoon ">
+      <button class="popup__close-button" type="button"></button>
+      <h2 class="popup__title">оставьте свою контактную информацию и получите сертификат на скидку 15 % при оформлении
+        первого заказа</h2>
+      <form action="#" class="form popup__form form_send-question" name="edit-info" novalidate>
+        <div class="popup__input-form">
+          <input type="text" name="name" class="form__text-input popup__input" id="name" placeholder="Как к Вам можно обращаться" maxlength="40"
+            minlength="2" required>
+  
+        </div>
+        <div class="popup__input-form">
+          <input type="email" name="email" class="form__text-input popup__input" id="email" placeholder="E-mail*"
+            maxlength="200" minlength="2" required>
+        </div>
+        <div class="popup__input-form">
+          <input type="tel" name="phone" class="form__text-input popup__input" id="phone" placeholder="Телефон*"
+            maxlength="200" minlength="2" required>
+
+        </div>
+        <div class="popup__input-form">
+          <input type="tel" name="phone" class="form__text-input popup__input" id="phone" placeholder="Телефон*"
+            maxlength="200" minlength="2" required>
+
+        </div>
+        <div class="popup__checkbox">
+          <input class="popup__checkbox-button" id="popup__checkbox-button" type="checkbox">
+          <label for="popup__checkbox-button" class="popup__checkbox-label">Согласен на обработку персональных
+            данных</label>
+        </div>
+        <button type="submit" class="form__save-button decoration popup__save-button">Получить скидку 15%</button>
+  
+      </form>
+    </div>
+  </div>
+
+
+  
+  <div class="popup popup_send-price popup__send-whatsapp">
+    <div class="popup__container popup__container-price_whatsapp">
+      <button class="popup__close-button" type="button"></button>
+   
+        <img src="../src/images/priceImage.png" alt="Картинка документа" class="popup__image">
+        <h2 class="popup__title popup__title-price">получите прайс-лист 
+          в Whats app!</h2>
+        <p class="popup__subtitle">Введите номер телефона, к которому привязан WhatsApp</p>
+      <form action="#" class="form popup__form form_send-question" name="edit-info" novalidate>
+        <div class="popup__input-form">
+          <input type="text" name="name" class="form__text-input popup__input" id="name" placeholder="Как к Вам можно обращаться" maxlength="40"
+            minlength="2" required>
+  
+        </div>
+        <div class="popup__input-form">
+          <input type="email" name="email" class="form__text-input popup__input" id="email" placeholder="E-mail*"
+            maxlength="200" minlength="2" required>
+        </div>
+   
+        <div class="popup__checkbox">
+          <input class="popup__checkbox-button" id="popup__checkbox-button" type="checkbox">
+          <label for="popup__checkbox-button" class="popup__checkbox-label">Согласен на обработку персональных
+            данных</label>
+        </div>
+        <button type="submit" class="form__save-button decoration popup__save-button">Получить скидку 15%</button>
+  
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup_send-price popup__send-telegram">
+    <div class="popup__container popup__container-price_telegram">
+      <button class="popup__close-button" type="button"></button>
+   
+        <img src="../src/images/priceImage.png" alt="Картинка документа" class="popup__image">
+        <h2 class="popup__title popup__title-price">получите прайс-лист 
+          в Telegram!</h2>
+        <p class="popup__subtitle">Введите номер телефона, к которому привязан Telegram</p>
+      <form action="#" class="form popup__form form_send-question" name="edit-info" novalidate>
+        <div class="popup__input-form">
+          <input type="text" name="name" class="form__text-input popup__input" id="name" placeholder="Как к Вам можно обращаться" maxlength="40"
+            minlength="2" required>
+  
+        </div>
+        <div class="popup__input-form">
+          <input type="email" name="email" class="form__text-input popup__input" id="email" placeholder="E-mail*"
+            maxlength="200" minlength="2" required>
+        </div>
+   
+        <div class="popup__checkbox">
+          <input class="popup__checkbox-button" id="popup__checkbox-button" type="checkbox">
+          <label for="popup__checkbox-button" class="popup__checkbox-label">Согласен на обработку персональных
+            данных</label>
+        </div>
+        <button type="submit" class="form__save-button decoration popup__save-button">Получить скидку 15%</button>
+  
+      </form>
+    </div>
+  </div>
+
+
+  <div class="popup popup_send-consultation popup__send-consultation">
+    <div class="popup__container ">
+      <button class="popup__close-button" type="button"></button>
+   
+        <img src="../src/images/priceImage.png" alt="Картинка документа" class="popup__image">
+        <h2 class="popup__title popup__title-price  popup__title-consultation">получите 
+          Бесплатную консультацию</h2>
+        <p class="popup__subtitle popup__subtitle-consultation">Бесплатная консультация по расчету поставки на склады маркетплейсов</p>
+      <form action="#" class="form popup__form form_send-question" name="edit-info" novalidate>
+        <div class="popup__input-form">
+          <input type="text" name="name" class="form__text-input popup__input" id="name" placeholder="Как к Вам можно обращаться" maxlength="40"
+            minlength="2" required>
+  
+        </div>
+        <div class="popup__input-form">
+          <input type="tel" name="phone" class="form__text-input popup__input" id="phone" placeholder="Телефон*"
+            maxLength="12" minLength="11" required>
+
+        </div>
+   
+        <div class="popup__checkbox">
+          <input class="popup__checkbox-button" id="popup__checkbox-button" type="checkbox">
+          <label for="popup__checkbox-button" class="popup__checkbox-label">Согласен на обработку персональных
+            данных</label>
+        </div>
+        <button type="submit" class="form__save-button decoration popup__save-button">Получить 
+          бесплатную консультацию</button>
+  
+      </form>
+    </div>
+  </div>
+
+
+
+  <script src="./scripts/swiper.js"></script>
+  <script src="./pages/index.js"></script>
 </body>
 
 </html>
