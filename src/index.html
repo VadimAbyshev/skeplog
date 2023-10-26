@@ -977,8 +977,9 @@
   <div class="popup popup_send-message popup__send-question">
     <div class="popup__container popup__container-cartoon ">
       <button class="popup__close-button" type="button"></button>
-      <h2 class="popup__title">оставьте свою контактную информацию и получите сертификат на скидку 15 % при оформлении
-        первого заказа</h2>
+      <h2 class="popup__title">Пожалуйста, оставьте свою контактную информацию 
+        и краткий вопрос, и получите бесплатную консультацию
+        в ближайшее время!</h2>
       <form action="#" class="form popup__form form_send-question" name="edit-info" novalidate>
         <div class="popup__input-form">
           <input type="text" name="name" class="form__text-input popup__input" id="name" placeholder="Как к Вам можно обращаться" maxlength="40"
@@ -991,6 +992,11 @@
         </div>
         <div class="popup__input-form">
           <input type="tel" name="phone" class="form__text-input popup__input" id="phone" placeholder="Телефон*"
+            maxlength="200" minlength="2" required>
+
+        </div>
+        <div class="popup__input-form">
+          <input type="text" name="message" class="form__text-input popup__input" id="message" placeholder="Ваше сообщение"
             maxlength="200" minlength="2" required>
 
         </div>
@@ -1025,11 +1031,7 @@
             maxlength="200" minlength="2" required>
 
         </div>
-        <div class="popup__input-form">
-          <input type="tel" name="phone" class="form__text-input popup__input" id="phone" placeholder="Телефон*"
-            maxlength="200" minlength="2" required>
 
-        </div>
         <div class="popup__checkbox">
           <input class="popup__checkbox-button" id="popup__checkbox-button" type="checkbox">
           <label for="popup__checkbox-button" class="popup__checkbox-label">Согласен на обработку персональных
