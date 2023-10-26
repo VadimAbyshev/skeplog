@@ -12,6 +12,8 @@
 .footer__columns{
     display: flex;
     flex-direction: row;
+    width: 1033px;
+    margin: 0 auto 0;
 }
 .footer__logo{
     width: 200px;
@@ -23,7 +25,7 @@ margin-bottom: 32px;
 .footer__element{
     display: flex;
     flex-direction: column;
-    margin-left: 250px;
+    margin-left: 50px;
 }
 .footer__info{
     display: flex;
@@ -200,9 +202,9 @@ cursor: pointer;
     display: flex;
     flex-direction: row;
     width: 1033px;
-    margin-left: 250px;
     margin-top: 70px;
-        gap: 120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer__requisites{
@@ -210,6 +212,8 @@ cursor: pointer;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    width: 410px;
+    margin-left: 127px;
 }
 .footer__requisites-text{
     margin: 0;
@@ -256,12 +260,14 @@ margin-top: 15px;
 .footer__company{
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
 .footer__documents{
     display: flex;
     flex-direction: column;
     text-align: right;
-}
+    margin-left: 100px;
+    }
 .footer__documents-title{
     margin: 0;
     margin-top: 15px;
@@ -279,3 +285,200 @@ font-weight: 400;
 text-decoration-line: underline;
 margin-top: 15px;
 }
+
+.footer__burger{
+    display: block;        
+    width: 44px;
+    height: 44px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    background-image: url('../../images/footerBurger.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: none;
+}
+.footer__images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer__info-title{
+    color: #FFF;
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 33px;
+}
+.footer__info-element_text{
+    color: #FFF;
+font-family: Arial;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 135.023%;
+margin: 0;
+
+}
+.footer__info-element{
+    margin-bottom: 30px;
+}
+.footer__info-element:last-of-type{
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 1460px){
+.footer{
+    background: #000000;
+
+}
+.footer__input{
+
+}
+}
+
+@media screen and (max-width: 1260px){
+    .footer__input{
+        width: 200px;
+    }
+    .footer__link-telegram{
+        margin-left: 15px;
+    }
+    .footer__office-register{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1052px){
+   .footer__links{
+    display: none;
+   }
+   .footer__documents{
+    margin-left: 10px;
+   }
+   .footer__requisites{
+    margin-left: 10px;
+   }
+   .footer__columns{
+    width: 700px;
+    margin-left: 30px;
+   }
+   .footer__abouts{
+    width: 700px;
+   }
+   .footer__abouts{
+    margin-left: 30px;
+   }
+}
+
+@media screen and (max-width: 850px){
+    .footer__links{
+     display: none;
+    }
+    .footer{
+        height:1100px;
+    }
+    .footer__documents{
+     margin-left: 10px;
+     text-align: left;
+    }
+    .footer__company{
+        margin-left: 10px;
+    }
+    .footer__requisites{
+     margin-left: 10px;
+     text-align: left;
+     align-items: start;
+    }
+    .footer__columns{
+     margin-left: 30px;
+     flex-direction: column;
+    }
+    .footer__abouts{
+     flex-direction: column;
+    }
+    .footer__abouts{
+     margin-left: 30px;
+     flex-direction: column;
+    }
+    .footer__feedback{
+        margin-left: 10px;
+    }
+    .footer__feedback-title{
+        margin-bottom: 29px;
+    }
+    .footer__element{
+        margin-left: 10px;
+    }
+    .footer__columns{
+        width: 500px;
+    }
+    .footer__abouts{
+        width: 500px;
+    }
+ }
+
+ @media screen and (max-width: 768px){
+    .footer__burger{
+        display: block;
+        margin-left: auto;
+    }
+    .footer__images{
+        width: 100%;
+    }
+ }
+ @media screen and (max-width: 600px){
+    .footer__burger{
+        display: block;
+        margin-left: 75px;
+    }
+
+ }
+
+ 
+ @media screen and (max-width: 550px){
+    .footer__columns{
+        width: 345px;
+    }
+    .footer__burger{
+        margin-left: 17px;
+    }
+    .footer__abouts{
+        width: 320px;
+    }
+    .footer__requisites{
+        width: 320px;
+    }
+    .footer__company{
+        width: 320px;
+    }
+    .footer__feedback{
+        width: 320px;
+    }
+    .footer__form{
+        width: 320px;
+    }
+ }
+  
+ @media screen and (max-width: 405px){
+.footer__columns{
+    margin-left: 15px;
+}
+.footer__abouts{
+    margin-left: 15px;
+}
+.footer__abouts{
+    width: 330px;
+}
+.footer__element{
+    width: 320px;
+}
+.footer__columns{
+    width: 320px;
+}
+ }

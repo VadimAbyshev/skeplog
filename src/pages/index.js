@@ -35,7 +35,9 @@ const swiper = new Swiper('.swiper', {
 const accordion = document.querySelector('.accordion');
 const accordionOpenButton = document.querySelector('.question__info-button');
 
-const burgerButton = document.querySelector('.navigation__burger')
+const burgerButton = document.querySelector('.burger-button')
+const burgerButto = document.querySelector('.footer__burger')
+
 const buergerMenu = document.querySelector('.navigation__nav')
 const closeBurgerButtton = document.querySelector('.navigation__burger-close')
 
@@ -61,5 +63,7 @@ function openАccordion(){
   
 }  
 burgerButton.addEventListener('click', openBurgerMenu)
+burgerButto.addEventListener('click', openBurgerMenu)
+
 closeBurgerButtton.addEventListener('click', closeBurgerMenu)
 accordionOpenButton.addEventListener('click', openАccordion)

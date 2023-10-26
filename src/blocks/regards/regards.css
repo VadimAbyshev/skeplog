@@ -45,7 +45,7 @@ margin: 0;
             background-image: url(../../images/redgarFon2.png);
         }
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 675px){
     .regards{
         margin-top: 0;
         height: 398px;
