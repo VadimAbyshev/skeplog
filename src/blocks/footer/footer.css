@@ -1,0 +1,281 @@
+.footer{
+    background-image: url(../../images/FooterBack.png);
+    width: 100%;
+    height: 577px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.footer__columns{
+    display: flex;
+    flex-direction: row;
+}
+.footer__logo{
+    width: 200px;
+height: 80px;
+flex-shrink: 0;
+margin-top: 25px;
+margin-bottom: 32px;
+}
+.footer__element{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+.footer__info-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer__info-element_image{
+    width: 38px;
+height: 38px;
+margin-right: 14px;
+}
+.footer__link{
+    list-style: none;
+    height: 29px;
+}
+.footer__links{
+    padding: 0;
+    margin: 0;
+    margin-left: 130px;
+    height: 364px;
+}
+.footer__link-element{
+    color: #FFF;
+text-decoration: none;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 250%;
+}
+.footer__links-title{
+    margin-top: 40px;
+    font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 55px;
+}
+.footer__info-title{
+    margin: 0;
+}
+.footer__feedback{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: 39px;
+}
+
+.footer__feedback-title{
+    color: #FFF;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 70px;
+}
+.footer__input{
+    display: flex;
+width: 355px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+background-color: transparent;
+border: 1px solid #FFF;
+height: 46px;
+color: #999;
+padding-left: 44px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;;
+}
+.footer__save-button{
+width: 148px;
+
+background-color: transparent;
+border: 2px solid #D40;
+margin-top: 20px;
+height: 38px;
+cursor: pointer;
+color: #FFF;
+font-family: Arial;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+
+.footer__link-telegram{
+    background: url(../../images/headerButtonTelegram.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-left: 122px;
+}
+
+.footer__link-whatsapp{
+    background: url(../../images/headerButtonWhatsapp.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
+
+.footer__form-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__office{
+    display: flex;
+    flex-direction: column;
+}
+.footer__office-title{
+    color: #FFF;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 40px;
+margin-bottom: 25px;
+}
+.footer__office-auth{
+    border: 2px solid #D40;
+background: #D40;
+width: 132px;
+height: 38px;
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+cursor: pointer;
+
+}
+.footer__office-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.footer__office-register{
+    width: 210px;
+    height: 38px;
+    margin-left: 14px;
+    border: 2px solid #D40;
+    background-color: transparent;
+    color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+cursor: pointer;
+}
+.footer__abouts{
+    display: flex;
+    flex-direction: row;
+    width: 1033px;
+    margin-left: 250px;
+    margin-top: 70px;
+        gap: 120px;
+}
+
+.footer__requisites{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.footer__requisites-text{
+    margin: 0;
+    margin-top: 15px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+.footer__requisites-subtitle{
+    margin: 0;
+    color: #DADADA;
+margin-top: 5px;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+text-decoration-line: underline;
+cursor: pointer;
+margin-top: 15px;
+}
+.footer__requisites-title{
+    color: #DADADA;
+font-family: Arial;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0;
+margin-top: 15px;
+}
+.footer__company-title{
+    margin: 0;
+    margin-top: 15px;
+
+}
+
+.footer__company-subtitle{
+    color: #DADADA;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+text-decoration-line: underline;
+margin-top: 15px;
+}
+.footer__company{
+    display: flex;
+    flex-direction: column;
+}
+.footer__documents{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.footer__documents-title{
+    margin: 0;
+    margin-top: 15px;
+    color: #DADADA;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer__documents-subtitle{
+    color: #DADADA;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+text-decoration-line: underline;
+margin-top: 15px;
+}
