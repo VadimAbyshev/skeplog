@@ -92,3 +92,19 @@
         margin-left: auto;
     }
 }
+@media screen and (max-width: 440px){
+    .header__links{
+        margin-right: auto;
+        margin-left: 65px;
+    }
+    .header__logo{
+        width: 134.178px;
+
+    }
+    .header__link-telegram{
+        margin-left: 8px;
+    }
+    .navigation{
+        border: none;
+    }
+}

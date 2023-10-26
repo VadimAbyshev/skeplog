@@ -106,6 +106,10 @@ padding: 11px 53px;
 flex-shrink: 0;
 flex-wrap: wrap;
 }
+.swiper-slide__car{
+    width: 439px;
+height: 282px;
+}
 .guarantee__button-span{
     color: #000;
 text-align: center;
@@ -118,11 +122,11 @@ font-weight: 400;
 line-height: normal;
 }
 .guarantee__grid-images-car{
-    width: 504px;
+    width: 450px;
 }
 
 .guarantee__grid-slide_car{
-    width: 439px;
+    width: 450px;
 }
 @media screen and (max-width: 1100px){
     .guarantee__grid-title{

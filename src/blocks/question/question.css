@@ -1,7 +1,6 @@
 .question{
     width: 1033px;
     margin: 0 auto;
-    height: 1000px;
     display: flex;
     flex-direction: column;
 }
@@ -13,7 +12,6 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
 margin: 0;
-margin-top: 70px;
 margin-bottom: 80px;
 }
 
@@ -146,3 +144,108 @@ text-transform: uppercase;
 margin-left: 46px;
 }
 
+@media screen and (max-width: 1050px){
+.question__feedback{
+    flex-direction: column;
+}
+.question__text{
+    order: 0;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.question__form{
+    order: 1;
+}
+.question__feedback{
+    text-align: left;
+}
+.question{
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accordion_opened{
+    height: 200px;
+}
+}
+
+@media screen and (max-width: 780px){
+    .question__feedback{
+        flex-direction: column;
+    }
+
+
+    .question{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.question__title{
+    margin-bottom: 50px;
+    
+}
+.accordion_opened{
+    height: 280px;
+}
+    }
+
+    @media screen and (max-width: 520px){
+        .question__feedback{
+            margin-top: 55px;
+            }
+    
+    
+        .question{
+            width: 344px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    .question__title{
+        font-size: 22px;
+
+        
+    }
+    .question__texts-title{
+        font-size: 18px;
+    }
+    .question__texts-text{
+        font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10px;
+    }
+    .accordion_opened{
+        height: 340px;
+        background: var(--gray-super-light, #F4F4F4);
+    }
+    .question__texts{
+        width: 260px;
+    }
+    .question__input{
+        width: 344px;
+        height: 39px;
+        font-size: 14px;
+    }
+    .question__input:last-of-type{
+        height: 60px;
+    }
+    .question__text{
+        font-size: 22px;
+    }
+    .question__info{
+        margin-bottom: 35px;
+    }
+    .question__save-button {
+        width: 345px;
+        font-size: 20px;
+        height: 55px;
+    }
+    .question__form{
+        width: 344px;
+    }
+    .question__input-form{
+        width: 344px;
+}
+        }

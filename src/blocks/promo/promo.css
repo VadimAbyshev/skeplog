@@ -159,3 +159,51 @@ margin-top: 10px;
             font-size: 50px;
         }
 }
+
+@media screen and (max-width: 550px){
+    .promo{
+        background-image: url(../../images/PromoLittleFon.png);
+        background-position: 14px 510px;
+height: 750px;
+        }
+        .promo__title{
+            font-size: 32px;
+                width: 330px;
+                margin-bottom: 35px;
+                margin-top: 0;
+        }
+        .promo__info{
+            color: #D40;
+            margin-bottom: 35px;
+    
+        }
+        .promo__info-text{
+            font-size: 18px;
+        }
+        .promo__action-text{
+            text-align: center;
+            font-size: 18px;
+            width: 330px;
+            margin-bottom: 20px;
+        }
+        .promo__action-span{
+            font-size: 16px;
+            text-align: center;
+        }
+        .promo__action-timeline{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .promo__button{
+            margin-left: auto;
+            margin-right: auto;
+      
+        }
+        .promo__button-span{
+            font-size: 16px;
+        }
+        .promo__action-timer{
+            margin-top: 10px;
+        }
+}

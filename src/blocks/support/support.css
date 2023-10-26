@@ -18,7 +18,6 @@
 }
 .support__title-span{
     color: #D40;
-font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -37,12 +36,12 @@ margin-bottom: 0;
 }
 .support__subtitle-orange{
     color: #D40;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 55px;
-margin-bottom: 0;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 55px;
+    margin-bottom: 0;
 }
 .support__button{
 width: 504px;
@@ -75,3 +74,38 @@ margin-top: 74px;
         width: 330px;
     }
 }
+
+@media screen and (max-width: 620px){
+ .support__subtitle{
+    width: 450px;
+ }
+ .support__button{
+    width: 340px;
+    font-size: 20px;
+ }
+}
+
+@media screen and (max-width: 470px){
+    .support__subtitle{
+       width: 340px;
+       font-size: 18px;
+       margin-top: 45px;
+    }
+    .support__title{
+        font-size: 22px;
+        margin-top: 80px;
+    }
+    .support__button{
+       width: 340px;
+       font-size: 20px;
+       margin-top: 55px;
+    }
+    .support{
+        height: 480px;
+    }
+    .support__subtitle-orange{
+        font-size: 16px;
+        margin-top: 45px;
+        margin-bottom: 0;
+    }
+   }

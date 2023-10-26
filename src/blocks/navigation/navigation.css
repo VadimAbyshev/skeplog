@@ -120,7 +120,7 @@ display: none;
         display: flex;
         flex-direction: row;
         top: 23px;
-        left: 210px;
+        left: 240px;
         position: absolute;
       }
 .navigation{
@@ -213,5 +213,41 @@ background-color: transparent;
 border: 2px solid #D40;
 display: block;
       }
+      .navigation{
+        border: none;
+      }
 
+}
+
+@media screen and (max-width: 550px){
+  .navigation__links{
+    width: 100%;
+  }
+  .navigation__social{
+    left: 15px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .navigation__social{
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .navigation__social{
+    left: 150px;
+  }
+}
+
+@media screen and (max-width: 570px){
+  .navigation__social{
+    left: 100px;
+  }
+}
+@media screen and (max-width: 535px){
+
+  .navigation__social{
+    left: 15px;
+  }
 }

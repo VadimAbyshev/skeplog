@@ -18,9 +18,18 @@ text-transform: uppercase;
 }
 .map__title-span{
     color: var(--O, #D40);
-    font-size: 40.13px;
+
+}
+
+@media screen and (max-width: 370px){
+   .map__title{
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40.13px;
+    line-height: normal;
     text-transform: uppercase;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 15px;
+   }
 }
