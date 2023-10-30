@@ -15,6 +15,7 @@
     align-items: center;
 box-sizing: content-box;
 justify-content: space-between;
+
 }
 .navigation__link{
     display: flex;
@@ -22,7 +23,7 @@ justify-content: space-between;
 }
 .navigation__nav{
     width: 1033px;
-    margin: 0 auto;
+    margin: 0 250px;
     transition: width .2s linear, visibility .2s linear;
 }
 .navigation__link-element{
@@ -35,6 +36,10 @@ text-decoration: none;
 max-width: 58px;
 display: flex;
 flex-direction: row;
+
+}
+.navigation__strelka{
+  padding-left: 5px;
 }
 .navigation__burger{
   display: none;
