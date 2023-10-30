@@ -92,6 +92,7 @@
         margin-left: auto;
     }
 }
+
 @media screen and (max-width: 440px){
     .header__links{
         margin-right: auto;
