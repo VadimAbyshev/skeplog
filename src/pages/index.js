@@ -62,7 +62,7 @@ const popupSendPriceWhatsapp = document.querySelector('.popup__send-whatsapp')
 const popupSendQuestion = document.querySelector('.popup__send-question')
 const popupSendDiscount = document.querySelector('.popup__send-discount')
 
-
+const closePopupLink = document.querySelectorAll('.navigation__link')
 const telegramSendButton = document.querySelectorAll('.price__button-telegram')
 const whatsappSendButton = document.querySelectorAll('.price__button-whatsapp')
 const questionSendButton = document.querySelectorAll('.support__button-popup')
@@ -82,7 +82,11 @@ closePopupButton.forEach((elem)=>{
   })
 })
 
-
+closePopupLink.forEach((elem)=>{
+  elem.addEventListener('click',()=>{
+    buergerMenu.classList.remove('navigation_nav_open')
+  })
+})
 
 questionSendButton.forEach((elem)=>{
   elem.addEventListener('click',()=>{
