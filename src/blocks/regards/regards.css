@@ -6,9 +6,9 @@
     margin-top: 44px;
     background-image: url(../../images/redgarFon.png);
 width: 100%;
-    height: 297px;
+    height: 396px;
     background-repeat: no-repeat;
-    background-size: 1440px;
+    background-size: 1920px;
 }
 
 .regards__title{
@@ -18,38 +18,42 @@ font-style: italic;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
-margin-top: 79px;
+margin-top: 150px;
 margin-bottom: 34px;
-width: 655px;
+width: 750px;
 flex-shrink: 0;
 color: #FFF;
 }
 
-.regards__subtitle{
-    text-align: center;
-font-family: Arial;
-font-size: 28px;
-font-style: italic;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-width: 655px;
-flex-shrink: 0;
-color: #FFF;
-margin: 0;
-}
+@media screen and (max-width: 1800px){
+    .regards{
+      
+        margin-top: 44px;
+        background-image: url(../../images/redgarFon2.png);
+        height: 297px;
+        background-size: 1800px;
+    }
+    .regards__title{
 
-@media screen and (max-width: 1460px){
+        margin-top: 79px;
+    width: 655px;
+
+    }
+}
+@media screen and (max-width: 1440px){
         .regards{
             background-size: cover;
-            background-image: url(../../images/redgarFon2.png);
+            background-image: url(../../images/redgarFon.png);
+            background-size: 1440px;
         }
 }
+
 @media screen and (max-width: 675px){
     .regards{
         margin-top: 0;
         height: 398px;
         background-image: url(../../images/regardsLittleFon.png);
+        background-size: cover;
     }
     .regards__title{
         width: 400px;

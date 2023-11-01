@@ -1,6 +1,6 @@
 .members{
     display: flex;
-    width: 1033px;
+    width: 1420px;
     margin: 0 auto;
     flex-direction: column;
     
@@ -26,18 +26,18 @@ margin-top: 70px;
 
 .members__list{
     display: grid;
-    grid-template-columns: repeat(3, 318px);
+    grid-template-columns: repeat(3, 430px);
     gap: 40px;
     margin-top: 70px;
 }
 .members__list-element{
     display: flex;
     flex-direction: column;
-    background-image: url(../../images/memberFon.png);
+    background-image: url(../../images/memberFon1920.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    height: 409px;
+    height: 560px;
 }
 .members__title-element{
     color: var(--neutraul-01-ddddd, #DDD);
@@ -58,9 +58,42 @@ font-weight: 400;
 line-height: normal;
 margin: 0;
 margin-top: 3.5px;
-width: 203px;
+width: 300px;
 }
-
+@media screen and (max-width: 1440px){
+    .members{
+        display: flex;
+        width: 1033px;
+        margin: 0 auto;
+        flex-direction: column;
+        
+    }
+    .members__list-element{
+        display: flex;
+        flex-direction: column;
+        background-image: url(../../images/memberFon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        height: 409px;
+    }
+    .members__list{
+        display: grid;
+        grid-template-columns: repeat(3, 318px);
+        gap: 40px;
+        margin-top: 70px;
+    }
+    .memebers__subtitle{
+        color: #D8D8D8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    margin-top: 3.5px;
+    width: 203px;
+    }
+}
 @media screen and (max-width: 1060px){
     .members__list{
         grid-template-columns: repeat(2, 318px);

@@ -1,5 +1,5 @@
 .question{
-    width: 1033px;
+    width: 1420px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -38,6 +38,8 @@ margin-bottom: 80px;
     cursor: pointer;
     position: relative;
     display: block;
+    transition: 0.4s;
+   
 }
 .question__texts-title{
     color: var(--O, #D40);
@@ -61,6 +63,7 @@ height: 0;
 visibility: hidden;
 margin: 0;
 transition: all 1s;
+
 opacity: 0;
 
 }
@@ -70,7 +73,8 @@ opacity: 0;
 .question__texts{
     display: flex;
     flex-direction: column;
-    width: 950px;
+    width: 1420px;
+    
 }
 .accordion_opened{
 visibility: visible;
@@ -145,7 +149,17 @@ line-height: normal;
 text-transform: uppercase;
 margin-left: 46px;
 }
+@media screen and (max-width: 1440px){
+    .question{
+        width: 1033px;
+ 
+    }
+    
+.question__texts{
 
+    width: 950px;
+}
+}
 @media screen and (max-width: 1050px){
 .question__feedback{
     flex-direction: column;

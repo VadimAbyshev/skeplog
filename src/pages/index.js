@@ -22,11 +22,16 @@ const swiper = new Swiper('.swiper', {
         slidesPerView: 'auto',
         spaceBetween: 20,
         slidesPerView: 'auto',
-    }
+    },
+    1700: {
+      slidesPerView: 'auto',
+      spaceBetween: 150,
+      slidesPerView: 'auto',
+  }
 },
-autoplay: {
-  delay: 1000,
-},
+// autoplay: {
+//   delay: 1000,
+// },
 
 });
 
@@ -61,7 +66,7 @@ const popupSendPriceTelegram = document.querySelector('.popup__send-telegram')
 const popupSendPriceWhatsapp = document.querySelector('.popup__send-whatsapp')
 const popupSendQuestion = document.querySelector('.popup__send-question')
 const popupSendDiscount = document.querySelector('.popup__send-discount')
-
+const priceButtonLink = document.querySelectorAll('.price__button-orange')
 const closePopupLink = document.querySelectorAll('.navigation__link')
 const telegramSendButton = document.querySelectorAll('.price__button-telegram')
 const whatsappSendButton = document.querySelectorAll('.price__button-whatsapp')
@@ -75,7 +80,11 @@ discountSendButton.forEach((elem)=>{
     popupSendDiscount.classList.add('popup_opened')
   })
 })
-
+priceButtonLink.forEach((elem)=>{
+  elem.addEventListener('click',()=>{
+    popupSendQuestion.classList.add('popup_opened')
+  })
+})
 closePopupButton.forEach((elem)=>{
   elem.addEventListener('click',()=>{
     popupSendDiscount.classList.remove('popup_opened')

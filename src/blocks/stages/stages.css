@@ -34,8 +34,8 @@ margin-bottom: 0;
     display: grid;
     grid-template-columns: repeat(3, 288px);
     grid-template-rows: repeat(2, auto);
-    grid-row-gap: 93px;
-    grid-column-gap: 46px;
+    grid-row-gap: 71px;
+    grid-column-gap: 143px;
     margin-top: 80px;
 }
 .stages__grid-element{
@@ -101,7 +101,13 @@ align-items: center;
 text-align: center;
 cursor: pointer;
 }
+@media screen and (max-width: 1440px){
+    .stages__grid{
+        grid-row-gap: 93px;
+        grid-column-gap: 46px;
+    }
 
+}
 @media screen and (max-width: 1150px){
     .stages__title{
         margin-left: 40px;
@@ -148,6 +154,7 @@ cursor: pointer;
         width: 287px;
     } */
 }
+
 @media screen and (max-width: 400px){
         .stages__title{
         font-size: 22px;
