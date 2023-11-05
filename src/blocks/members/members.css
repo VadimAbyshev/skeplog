@@ -23,7 +23,19 @@ margin-top: 70px;
     color: #D40;
 
 }
+.member__container{
+    filter: grayscale(100%);
+    transition: ease-in-out .3s;
+    display: flex;
+    flex-direction: column;
 
+
+}
+.member__container:hover{
+    filter: grayscale(0%);
+    transition: ease-in-out .3s;
+    
+}
 .members__list{
     display: grid;
     grid-template-columns: repeat(3, 430px);
@@ -36,12 +48,15 @@ margin-top: 70px;
     background-image: url(../../images/memberFon1920.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;
+   
     height: 560px;
+   
 }
+
+
 .members__title-element{
-    color: var(--neutraul-01-ddddd, #DDD);
-font-size: 22px;
+    color: #D40;
+    font-size: 22px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
