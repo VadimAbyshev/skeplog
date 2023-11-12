@@ -1,4 +1,4 @@
-.popup{
+/* .popup{
     position: fixed;
     bottom: 0;
     display: flex;
@@ -12,7 +12,7 @@
     background-color: rgba(0, 0, 0, .5);
     opacity: 0;
     transition: visibility 0.7s, opacity 0.5s linear;
-}   
+}    */
 
 .popup__container{
    
@@ -145,7 +145,10 @@ margin-bottom: 28px;
 .popup__send-consultation{
     text-align: center;
 }
-
+.popup__title-successful{
+    text-align: center;
+    margin-top: 111px;
+}
 @media screen and (max-width: 540px){
     .popup__container{
         width: 340px;
